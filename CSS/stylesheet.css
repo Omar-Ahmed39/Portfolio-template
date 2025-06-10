@@ -1,0 +1,847 @@
+/* ------------ Start-Global Property ------------*/
+
+:root {
+    --main-color: #343434;
+    --main-bg-color2: #f7f7f7;
+
+    --p-block: 70px;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.fit {
+    width: fit-content;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+}
+
+.heading h2::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/dots.png);
+    width: 100%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    -o-transform: translateY(25%);
+}
+
+/* ------------ End-Global Property ------------*/
+
+/* ------------ Start-Nav Property------------*/
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ------------ End-Nav Property------------*/
+
+/* ------------ Start-Home Property ------------*/
+#Home {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Home a {
+
+    --circle: 35px;
+    font-size: 14px;
+    width: var(--circle);
+    height: var(--circle);
+
+}
+
+#Home p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+#Home p::after {
+    content: "|";
+    font-weight: 400;
+    animation: typing 7s infinite;
+    -webkit-animation: typing 7s infinite;
+}
+
+@keyframes typing {
+
+    0% {
+
+        content: " O|";
+
+    }
+
+    2% {
+
+        content: " Om|";
+
+    }
+
+    4% {
+
+        content: " Oma|";
+
+    }
+
+    6% {
+
+        content: " Omar|";
+
+    }
+
+    8% {
+
+        content: " Omar A|";
+
+    }
+
+    10% {
+
+        content: " Omar Ah|";
+
+    }
+
+    12% {
+
+        content: " Omar Ahm|";
+
+    }
+
+    14% {
+
+        content: " Omar Ahme|";
+
+    }
+
+    16% {
+
+        content: " Omar Ahmed|";
+
+    }
+
+    18% {
+
+        content: " Omar Ahme|";
+
+    }
+
+    20% {
+
+        content: " Omar Ahm|";
+
+    }
+
+    22% {
+
+        content: " Omar Ah|";
+
+    }
+
+    24% {
+
+        content: " Omar A|";
+
+    }
+
+    26% {
+
+        content: " Omar|";
+
+    }
+
+    28% {
+
+        content: " Oma|";
+
+    }
+
+    30% {
+
+        content: " Om|";
+
+    }
+
+    32% {
+
+        content: " O|";
+
+    }
+
+    34% {
+
+        content: " |";
+
+    }
+
+    36% {
+
+        content: " D|";
+
+    }
+
+    38% {
+
+        content: " De|";
+
+    }
+
+    40% {
+
+        content: " Dev|";
+
+    }
+
+    42% {
+
+        content: " Deve|";
+
+    }
+
+    44% {
+
+        content: " Devel|";
+
+    }
+
+    46% {
+
+        content: " Develo|";
+
+    }
+
+    48% {
+
+        content: " Develop|";
+
+    }
+
+    50% {
+
+        content: " Develope|";
+
+    }
+
+    52% {
+
+        content: " Developer|";
+
+    }
+
+    54% {
+
+        content: " Develope|";
+
+    }
+
+    56% {
+
+        content: " Develop|";
+
+    }
+
+    58% {
+
+        content: " Develo|";
+
+    }
+
+    60% {
+
+        content: " Devel|";
+
+    }
+
+    62% {
+
+        content: " Deve|";
+
+    }
+
+    64% {
+
+        content: " Dev|";
+
+    }
+
+    66% {
+
+        content: " De|";
+
+    }
+
+    68% {
+
+        content: " D|";
+
+    }
+
+    70% {
+
+        content: " |";
+
+    }
+
+    72% {
+
+        content: " D|";
+
+    }
+
+    74% {
+
+        content: " De|";
+
+    }
+
+    76% {
+
+        content: " Des|";
+
+    }
+
+    78% {
+
+        content: " Desi|";
+
+    }
+
+    80% {
+
+        content: " Desig|";
+
+    }
+
+    82% {
+
+        content: " Design|";
+
+    }
+
+    84% {
+
+        content: " Designe|";
+
+    }
+
+    86% {
+
+        content: " Designer|";
+
+    }
+
+    88% {
+
+        content: " Designe|";
+
+    }
+
+    90% {
+
+        content: " Design|";
+
+    }
+
+    92% {
+
+        content: " Desig|";
+
+    }
+
+    94% {
+
+        content: " Desi|";
+
+    }
+
+    96% {
+
+        content: " Des|";
+
+    }
+
+    98% {
+
+        content: " De|";
+
+    }
+
+    99% {
+
+        content: " D|";
+
+    }
+
+
+    100% {
+
+        content: " |";
+
+    }
+
+}
+
+/* ------------ End-Home Property ------------*/
+
+/* ------------ Start-About Property ------------*/
+
+
+#About {
+    padding-block: var(--p-block) 90px;
+}
+
+#About img {
+    width: 90%;
+    margin-left: 30px;
+}
+
+#About .image::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background-image: url(../images/dots.png);
+    bottom: -30px;
+    z-index: -1;
+}
+
+#About h2 {
+    font-size: 30px;
+}
+
+#About .text .skill {
+    letter-spacing: 2px;
+    color: #b2b1b1;
+    font-size: 14px;
+}
+
+#About .rate .progress {
+    height: 25px;
+    box-shadow: 0px 0px 10px rgb(195, 194, 194) inset;
+}
+
+#About button:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid;
+}
+
+#About a:hover {
+    background-color: black;
+
+}
+
+/* ------------ End-About Property ------------*/
+
+
+/* ------------ Start-Services Property ------------*/
+
+
+#Service {
+    background-color: var(--main-bg-color2);
+    padding-block: var(--p-block);
+}
+
+
+#Service i {
+    margin: auto;
+    --circle: 75px;
+    width: var(--circle);
+    height: var(--circle);
+    background-color: #f4f4f4;
+    font-size: 30px;
+    color: var(--main-color);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+#Service h3 {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+#Service .card:hover i {
+    background-color: var(--main-color);
+    color: aliceblue;
+}
+
+/* ------------ End-Service Property ------------*/
+
+
+
+/* ------------ Start-Work Property ------------*/
+
+#Work {
+    padding-block: var(--p-block);
+}
+
+#Work .image-contant {
+    inset: 5px;
+    color: var(--main-color);
+    gap: 30px;
+    opacity: 0;
+    transform: translateY(3%);
+    -webkit-transform: translateY(3%);
+    -moz-transform: translateY(3%);
+    -ms-transform: translateY(3%);
+    -o-transform: translateY(3%);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+#Work .image-contant a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+}
+
+#Work .image-contant a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+#Work .image:hover .image-contant {
+    gap: 0px;
+    opacity: 1;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+/* ------------ End-Work Property ------------*/
+
+
+/* ------------ Start-Active Property ------------*/
+.nav-link.active {
+
+    color: var(--main-color);
+    background-color: transparent !important;
+
+    position: relative;
+
+}
+
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 0;
+    animation: active .25s;
+    -webkit-animation: active .25s;
+}
+
+@keyframes active {
+    from {
+        transform: translateX(-102%);
+        -webkit-transform: translateX(-102%);
+        -moz-transform: translateX(-102%);
+        -ms-transform: translateX(-102%);
+        -o-transform: translateX(-102%);
+    }
+
+    to {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+}
+
+/* ------------ End-Active Property ------------*/
+
+
+
+/* ------------ Start-Testimonials Property ------------*/
+
+#Testimonials {
+    background-color: var(--main-bg-color2);
+    padding-block: var(--p-block);
+}
+
+#Testimonials .carousel-content p:last-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#Testimonials button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#Testimonials .carousel-indicators [data-bs-target] {
+    background-color: #869791;
+}
+
+/* ------------ End-Testimonials Property ------------*/
+
+
+
+
+/* ------------ Start-Count Property ------------*/
+
+.count {
+    padding-block: var(--p-block);
+}
+
+.count h3 {
+    font-weight: 800;
+}
+
+/* ------------ End-Count Property ------------*/
+
+
+
+
+/* ------------ Start-Team Property ------------*/
+
+#Team {
+    padding-block: var(--p-block);
+    background-color: var(--main-bg-color2);
+}
+
+#Team .text {
+    background-color: #5b5b5b;
+    font-size: 24px;
+}
+
+#Team .social {
+    inset: 5px;
+    transform: scale(0) rotateY(180deg);
+    -webkit-transform: scale(.5) rotateY(180deg);
+    -moz-transform: scale(.5) rotateY(180deg);
+    -ms-transform: scale(.5) rotateY(180deg);
+    -o-transform: scale(.5) rotateY(180deg);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+#Team .info:hover .social {
+    transform: scale(1) rotateY(0deg);
+    -webkit-transform: scale(1) rotateY(0deg);
+    -moz-transform: scale(1) rotateY(0deg);
+    -ms-transform: scale(1) rotateY(0deg);
+    -o-transform: scale(1) rotateY(0deg);
+    opacity: 1;
+}
+
+#Team .info img {
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+#Team .info:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#Team .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+#Team .social a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+/* ------------ Start-Team Property ------------*/
+
+
+
+/* ------------ Start-Contact Property ------------*/
+
+#Con {
+    padding-block: var(--p-block);
+}
+
+#Con .contact-info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    font-size: 24px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+#Con .contact-info:hover i {
+    background-color: black;
+    color: white;
+}
+
+#Con input,
+#Con textarea {
+    background-color: #f4f4f4;
+}
+
+#Con .form-control:focus {
+    box-shadow: none;
+}
+
+footer {
+    background-color: #1c1c1c;
+    padding-block: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------ End-Contact Property ------------*/
+
+
+
+
+footer p {
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #748182;
+}
+
+
+.back a {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99999;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.back a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+
+
+    .w-max {
+        max-width: 77%;
+    }
+
+    #Home p {
+        font-size: 60px;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
