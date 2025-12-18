@@ -7,6 +7,7 @@ _A Modern, Responsive Portfolio Template built with Bootstrap and Pure JavaScrip
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=flat-square)
 
 <br>
 
@@ -33,6 +34,7 @@ _A Modern, Responsive Portfolio Template built with Bootstrap and Pure JavaScrip
 
 ## 🛠 Technologies Used
 
+* **Fully Responsive Design:** Looks great on mobile, tablet, and desktop.
 * **HTML5:** For structured and semantic web content.
 * **CSS3:** Custom styling to complement the Bootstrap framework.
 * **Bootstrap:** Used for rapid, responsive UI development.
